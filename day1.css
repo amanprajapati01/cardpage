@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: rgb(255, 226, 183);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.cart{
+    width: 100%;
+    padding: 30px;
+    color: rgb(0, 0, 0);
+    max-width: 900px;
+    margin-top: 50px;
+    display: flex;
+    background-color: rgb(255, 198, 123);
+    align-items: center;
+    flex-direction: row;
+    border-style:groove;
+    border-radius: 5px;
+    border-color: black;
+    border-radius: 50px;
+
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.icon{
+    margin-top: 15px;
+    display: flex;
+    gap: 15px;
+}
+.icon img{
+    width: 40px;
+    height: 40px;
+}
+.right{
+    width: 60%;
+    color: white;
+}
+p{
+    font-size: 18px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+p:hover{
+    background-color: rgb(255, 220, 190);
+}
+h1{
+    margin-left: 30px;
+    color: rgb(14, 16, 17);
+}
+button{
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    background-color: rgb(255, 199, 95);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    margin-left: 80px;
+}
+button:hover{
+    background-color: rgb(255, 177, 88);
+}
+a{
+text-decoration: none;
+color: black;
+}
